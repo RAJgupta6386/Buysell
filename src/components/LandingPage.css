@@ -1,0 +1,28 @@
+.landing-page {
+    padding: 20px;
+}
+
+.search-sort-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card {
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.featured {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: gold;
+    padding: 5px;
+    z-index: 1;
+}
